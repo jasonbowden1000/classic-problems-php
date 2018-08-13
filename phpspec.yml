@@ -1,0 +1,4 @@
+suites:
+  UniqueIndicator:
+    namespace: Problems
+    src_path: problems

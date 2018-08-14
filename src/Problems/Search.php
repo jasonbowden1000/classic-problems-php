@@ -7,7 +7,7 @@ class Search
     public function binarySearch(array $arr, int $value)
     {
         $lower = 0; 
-        $upper = count($arr) - 1; // PHP count() is O(1)
+        $upper = count($arr) - 1; // count() is O(1)
         $result = -1;
 
         while ($upper >= $lower) {

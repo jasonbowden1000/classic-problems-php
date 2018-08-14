@@ -1,4 +1,4 @@
 suites:
   UniqueIndicator:
     namespace: Problems
-    src_path: problems
+    src_path: src

@@ -22,5 +22,4 @@ class MathSpec extends ObjectBehavior
     {
         $this->reverseDigits(32100)->shouldReturn(123);
     }
-
 }

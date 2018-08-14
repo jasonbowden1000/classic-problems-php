@@ -11,7 +11,7 @@ class Search
         $result = -1;
 
         while ($upper >= $lower) {
-            $middle = $lower + intdiv($upper - $lower, 2);
+            $middle = intdiv($upper + $lower, 2);
 
             if ($arr[$middle] > $value) {
                 $upper = $middle - 1;

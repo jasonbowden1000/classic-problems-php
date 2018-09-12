@@ -14,6 +14,7 @@ class SortSpec extends ObjectBehavior
       $arr2 = [3, 7, 11, 19];
       $merged = [3, 5, 7, 11, 13, 17, 19];
       $this->sortedMerged($arr1, $arr2)->shouldEqual($merged);
+      $this->sortedMerged($arr2, $arr1)->shouldEqual($merged);
       $this->sortedMerged($arr1, $arr2)->shouldNotEqual([1, 2, 3, 4, 5, 6, 7]);
   }
 
